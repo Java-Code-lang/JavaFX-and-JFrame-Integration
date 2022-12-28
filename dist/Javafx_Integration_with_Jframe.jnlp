@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Javafx_Integration_with_Jframe.jnlp">
+  <information>
+    <title>Javafx_Integration_with_Jframe</title>
+    <vendor>freec</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Javafx_Integration_with_Jframe.jar" size="156552" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Javafx_Integration_with_Jframe" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafx_integration_with_jframe.Javafx_Integration_with_Jframe"  name="Javafx_Integration_with_Jframe" />
+  <update check="always"/>
+</jnlp>
